@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+}
+
+.centered {
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+
+.commonControl, #file, .imgContainer img {
+    cursor: pointer;
+    pointer-events: all;
+}

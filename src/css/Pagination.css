@@ -1,0 +1,29 @@
+.pagerButton {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #f1f1f1;
+    background-color: transparent;
+}
+
+.pagerButtonActive {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #3a80ba;
+    color: white;
+}
+
+.pagerArrows {
+    font-size: 2em !important;
+    color: #f1f1f1;
+    padding: 1px 15px;
+    cursor: default;
+    margin: 8px 0px;
+}
+
+.pagerArrowActive {
+    color : #3a80ba;
+    cursor: pointer;
+}
