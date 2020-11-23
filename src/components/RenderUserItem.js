@@ -14,7 +14,8 @@ const RenderUserItem = ({user}) => {
         setModalOpen(!modalOpen);
     };
 
-    const onEditClick = () => {
+    const onEditClick = (userid) => {
+        console.log('userId', userid);
         toggleModal();
     };
 
